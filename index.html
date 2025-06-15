@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>¿Qué emoción sientes ahora?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>¿Qué emoción sientes ahora?</h1>
+        <form id="quiz-form">
+<div class="question"><p>1. Ahora mismo, cuando algo no sale como quiero, lo que más siento es...</p><label><input type="radio" name="q1" value="ira"> Una sensación de injusticia, como si estuviera cruzando un límite</label><br><label><input type="radio" name="q1" value="tristeza"> Que me invade una tristeza difícil de explicar</label><br><label><input type="radio" name="q1" value="miedo"> Que algo malo puede pasar en cualquier momento</label><br><label><input type="radio" name="q1" value="alegría"> Que nada puede arruinar mi buen estado de ánimo</label><br></div>
+<div class="question"><p>2. En este momento, si pienso en lo que me rodea...</p><label><input type="radio" name="q2" value="asco"> Algo me incomoda profundamente y me dan ganas de alejarme</label><br><label><input type="radio" name="q2" value="sorpresa"> Todo me parece extraño o fuera de lugar, como si no entendiera algo</label><br><label><input type="radio" name="q2" value="alegría"> Me siento satisfecho y en calma con lo que hay</label><br><label><input type="radio" name="q2" value="tristeza"> Siento que me falta algo o alguien importante</label><br></div>
+<div class="question"><p>3. Ahora mismo, siento en mi cuerpo...</p><label><input type="radio" name="q3" value="alegría"> Ligereza o una energía cálida que me recorre</label><br><label><input type="radio" name="q3" value="ira"> Tensión, como si algo estuviera a punto de explotar</label><br><label><input type="radio" name="q3" value="miedo"> Un nudo o una opresión difícil de ignorar</label><br><label><input type="radio" name="q3" value="asco"> Rechazo, como si algo me generara repulsión</label><br></div>
+<div class="question"><p>4. En este instante, si alguien se acerca a hablarme...</p><label><input type="radio" name="q4" value="tristeza"> Tal vez no sabría qué decir, me siento apagado/a</label><br><label><input type="radio" name="q4" value="alegría"> Me gustaría compartir lo bien que me siento</label><br><label><input type="radio" name="q4" value="ira"> Probablemente reaccionaría a la defensiva</label><br><label><input type="radio" name="q4" value="miedo"> Me pondría tenso/a, esperando que pase algo incómodo</label><br></div>
+<div class="question"><p>5. Ahora, frente a lo que estoy viviendo...</p><label><input type="radio" name="q5" value="sorpresa"> Me siento desorientado/a, como si no entendiera lo que pasa</label><br><label><input type="radio" name="q5" value="asco"> Siento la necesidad de alejarme de algo o alguien</label><br><label><input type="radio" name="q5" value="ira"> Siento que debo defender mi lugar o mi postura</label><br><label><input type="radio" name="q5" value="alegría"> Tengo claridad y disfruto este momento</label><br></div>
+<div class="question"><p>6. Si observo cómo estoy pensando ahora...</p><label><input type="radio" name="q6" value="miedo"> Anticipo que algo saldrá mal, aunque no sé qué</label><br><label><input type="radio" name="q6" value="tristeza"> Vuelvo una y otra vez a lo que ya no está</label><br><label><input type="radio" name="q6" value="sorpresa"> Me doy cuenta de cosas que no había notado antes</label><br><label><input type="radio" name="q6" value="alegría"> Siento gratitud por lo que hay</label><br></div>
+<div class="question"><p>7. En este momento, mi reacción automática es...</p><label><input type="radio" name="q7" value="ira"> Querer reaccionar o responder con firmeza</label><br><label><input type="radio" name="q7" value="tristeza"> Quedarme en silencio o aislarme</label><br><label><input type="radio" name="q7" value="miedo"> Buscar protección o evitar riesgos</label><br><label><input type="radio" name="q7" value="alegría"> Compartir con alguien o hacer algo agradable</label><br></div>
+<div class="question"><p>8. Frente a una conversación inesperada ahora...</p><label><input type="radio" name="q8" value="sorpresa"> Me cuesta procesarla o entenderla del todo</label><br><label><input type="radio" name="q8" value="asco"> Me genera rechazo o incomodidad notable</label><br><label><input type="radio" name="q8" value="alegría"> Me parece interesante y estimulante</label><br><label><input type="radio" name="q8" value="ira"> Me activa y quiero dejar claro mi punto de vista</label><br></div>
+<div class="question"><p>9. Si pienso en lo que quiero hacer justo ahora...</p><label><input type="radio" name="q9" value="tristeza"> Nada me entusiasma mucho</label><br><label><input type="radio" name="q9" value="miedo"> Preferiría no arriesgarme a nada nuevo</label><br><label><input type="radio" name="q9" value="alegría"> Tengo ganas de hacer algo que me gusta</label><br><label><input type="radio" name="q9" value="sorpresa"> Estoy abierto/a a lo que venga, sin saber qué esperar</label><br></div>
+<div class="question"><p>10. Si alguien me preguntara cómo estoy ahora mismo...</p><label><input type="radio" name="q10" value="alegría"> Diría que bien, con buen ánimo</label><br><label><input type="radio" name="q10" value="tristeza"> Diría que algo decaído/a</label><br><label><input type="radio" name="q10" value="ira"> Diría que molesto/a o incómodo/a</label><br><label><input type="radio" name="q10" value="asco"> Diría que me siento alejado/a o incómodo/a con lo que hay</label><br></div>
+
+            <button type="button" onclick="mostrarResultado()">Ver resultado</button>
+        </form>
+        <div id="resultado"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
